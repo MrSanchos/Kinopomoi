@@ -12,30 +12,38 @@ function App() {
                 <button className='reg'>РЕГИСТРАЦИ | ВХОД</button>
             </div>
             <div className='film'>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
+                <h1 className='kategor'>НОВИНКИ</h1>
+                <div className='film-image'>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                </div>
             </div>
             <div className='film'>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
+                <h1 className='kategor'>ПОПУЛЯРНОЕ</h1>
+                <div className='film-image'>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                </div>
             </div>
             <div className='film'>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
+                <h1 className='kategor'>ЭКШОН</h1>
+                <div className='film-image'>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                </div>
             </div>
             <div className='film'>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
+                <h1 className='kategor'>УЖАСЫ</h1>
+                <div className='film-image'>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                    <img src={xx} width="512" height="288"></img>
+                </div>
             </div>
-            <div className='film'>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-                <img src={xx} width="512" height="288"></img>
-            </div>
+ 
 
         </div>
   );

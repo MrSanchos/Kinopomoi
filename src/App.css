@@ -1,18 +1,17 @@
 body {
     background-color: #000800;
-
+    color: rgb(255, 255, 255);
 }
 .menu{
     display: flex;
     align-items: center; 
-    font-size: 16px;
+    font-size: 24px;
     font-family: "Comic Sans MS", sans-serif;
-    color: rgb(255, 255, 255);
 }
 .menu .reg{
     margin-left: auto;
     padding: 8px 16px;
-    font-size: 24px;
+    font-size: 34px;
     cursor: pointer; 
 }
 .menu .poisk{
@@ -25,6 +24,11 @@ body {
     border: 0;
 }
 .film{
+    font-family: "Comic Sans MS", sans-serif;
+    margin-top: 150px;
+    font-size: 24px;
+}
+.film-image{
     display: flex;
     gap: 20px;  
     align-items: center; 
@@ -32,8 +36,11 @@ body {
     margin-top: 50px;
  
 }
-.film img{
+.film-image img{
     border-radius: 25px;
+}
+.film .kategor{
+    margin-left: 10%;
 }
 button{
     background-color: #00080000;
