@@ -1,0 +1,11 @@
+body {
+    background-color: #000800;
+
+}
+.menu{
+    display: flex;
+    align-items: center; 
+    font-size: 16px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(255, 255, 255);
+}
