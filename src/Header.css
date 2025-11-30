@@ -1,0 +1,39 @@
+.menu{
+    position: fixed; 
+    padding: 5px; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    font-size: 24px;
+    background-color: #030303c7;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box; 
+    z-index: 1000; 
+}
+.menu .reg{
+    margin-left: auto;
+    padding: 8px 16px;
+    font-size: 34px;
+}
+.menu .poisk{
+    margin-left: auto;
+    width: 25%;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 0;
+    padding-right: 45px;
+    background-image: url('./assets/lypa.png');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 25px 25px;
+}
+button{
+    background-color: #00080000;
+    border: 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer; 
+}

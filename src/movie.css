@@ -1,0 +1,28 @@
+
+.film{
+    margin-top: 10vh;
+}
+.film-image{
+    display: flex;
+    gap: 1%;  
+    align-items: center; 
+    justify-content: center;  
+}
+.film-image img{
+    border-radius: 25px;
+    width: 15vw;
+    height: 25vw;
+}
+button{
+    background-color: #00080000;
+    border: 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer; 
+}
+
+h1{
+    font-size: 42px;
+    margin-left: 40px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
