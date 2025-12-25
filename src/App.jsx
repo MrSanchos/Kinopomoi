@@ -1,57 +1,37 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
-import Boevik from './categories/boevik';
-import Anime from './categories/anime';
-import Dedektiv from './categories/dedektiv';
-import Dokymentalka from './categories/dokymentalka';
-import Drama from './categories/drama';
-import Fantastika from './categories/fantastika';
-import Fentezi from './categories/fentezi';
-import Istrik from './categories/istrik';
-import Komedia from './categories/komedia';
-import Kriminal from './categories/kriminal';
-import Melodrama from './categories/melodrama';
-import Priklychenie from './categories/priklychenie';
-import Semeini from './categories/semeini';
-import Triller from './categories/triller';
-import Yjas from './categories/yjas';
+import Category from './category';
+import Movie from "./movies/movie";
+import MoviePage from "./movies/moviePage";
+import Header from "./Header";
 
 function App() {
     return (
         <div>
             <div className='onTop'>
-                <button className='ktr'><Link to="/boevik">Боевик</Link></button>
-                <button className='ktr'><Link to="/komedia">Комедия </Link></button>
-                <button className='ktr'><Link to="/drama">Драма</Link> </button>
-                <button className='ktr'><Link to="/triler">Триллер</Link> </button>
-                <button className='ktr'><Link to="/yjas">Ужасы </Link> </button>
-                <button className='ktr'><Link to="/fantastika">Фантастика</Link> </button>
-                <button className='ktr'><Link to="/fentezi">Фэнтези</Link> </button>
-                <button className='ktr'><Link to="/priklychenie">Приключения</Link> </button>
-                <button className='ktr'><Link to="/melodrama">Мелодрама</Link> </button>
-                <button className='ktr'><Link to="/kriminal">Криминал</Link> </button>
-                <button className='ktr'><Link to="/semeini">Семейный</Link> </button>
-                <button className='ktr'><Link to="/anime">Анимация</Link> </button>
-                <button className='ktr'><Link to="/dokymentalka">Документальный</Link> </button>
-                <button className='ktr'><Link to="/istorik">Исторический</Link> </button>
-                <button className='ktr'><Link to="/detektiv">Детектив</Link> </button>
+                <Link to="/БОЕВИК" className="linkButton">Боевик</Link>
+                <Link to="/КОМЕДИЯ" className="linkButton">Комедия </Link>
+                <Link to="/ДРАМА" className="linkButton">Драма</Link> 
+                <Link to="/ТРИЛЛЕР" className="linkButton">Триллер</Link>
+                <Link to="/УЖАСЫ" className="linkButton">Ужасы </Link>
+                <Link to="/ФАНТАСТИКА" className="linkButton">Фантастика</Link>
+                <Link to="/ФЭНТЕЗИ" className="linkButton">Фэнтези</Link>
+                <Link to="/ПРИКЛЮЧЕНИЯ" className="linkButton">Приключения</Link>
+                <Link to="/МЕЛОДРАМА" className="linkButton">Мелодрама</Link>
+                <Link to="/КРИМИНАЛ" className="linkButton">Криминал</Link>
+                <Link to="/СЕМЕЙНЫЙ" className="linkButton">Семейный</Link>
+                <Link to="/АНИМАЦИЯ" className="linkButton">Анимация</Link>
+                <Link to="/ДОКУМЕНТАЛЬНЫЙ" className="linkButton">Документальный</Link>
+                <Link to="/ИСТОРИЧЕСКИЙ" className="linkButton">Исторический</Link>
+                <Link to="/ДЕТЕКТИВ" className="linkButton">Детектив</Link>
             </div>
+
+            <Header />
+
             <Routes>
-                <Route path="/boevik" element={<Boevik/>} />
-                <Route path="/komedia" element={<Komedia/>} />
-                <Route path="/drama" element={<Drama/>} />
-                <Route path="/triler" element={<Triller/>} />
-                <Route path="/yjas" element={<Yjas/>} />
-                <Route path="/fantastika" element={<Fantastika/>} />
-                <Route path="/fentezi" element={<Fentezi/>} />
-                <Route path="/priklychenie" element={<Priklychenie/>} />
-                <Route path="/melodrama" element={<Melodrama/>} />
-                <Route path="/kriminal" element={<Kriminal/>} />
-                <Route path="/semeini" element={<Semeini/>} />
-                <Route path="/anime" element={<Anime/>} />
-                <Route path="/dokymentalka" element={<Dokymentalka/>} />
-                <Route path="/istorik" element={<Istrik/>} />
-                <Route path="/detektiv" element={<Dedektiv/>} />
+                <Route path="/" element={<Movie />} />
+                <Route path="/movie/:id" element={<MoviePage />} />
+                <Route path="/:name" element={<Category />} />
             </Routes>
         </div>
   );

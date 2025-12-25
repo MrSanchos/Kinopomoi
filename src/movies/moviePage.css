@@ -1,0 +1,51 @@
+.watch{
+    margin-top: 50px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 40px;
+}
+.watch img{
+    border-radius: 25px;
+    height: 50vw; 
+    max-height: 30vw;
+    object-fit: cover;  
+    margin-left: 40px;
+}
+.watch-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50vw;
+}
+
+.watch-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    margin: 0 0 15px 0;
+}
+
+.watch-text p {
+    color: rgb(148, 148, 148);
+    font-size: 1.2vw;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.watch-text .duration {
+    font-weight: normal;
+    color: #bbb;
+    font-size: 2vw;
+}
+.watch iframe {
+    margin-top: 30px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+.time{
+    color: rgb(148, 148, 148);
+}
+

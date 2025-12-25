@@ -2,7 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './Header.css'
 import logo from './assets/logo.png';
 import entry from './assets/vhod.png';
-import Movie from './movie'
+import Movie from './movies/movie'
 
 function Header() {
     return (
@@ -12,9 +12,6 @@ function Header() {
                 <input className='poisk' type="text" placeholder="Поиск..."/>
                 <button className='reg'><img src={entry} width="40" height="40"></img></button>
             </div>
-            <Routes>
-                <Route path="/" element={<Movie/>} />
-            </Routes>
         </div>
   );
 }
