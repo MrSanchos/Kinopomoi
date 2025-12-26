@@ -1,9 +1,9 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Category from './category';
-import Movie from "./movie";
+import Movie from "./movies/movie";
 import Profil from "./profil";
-import MoviePage from "./moviePage";
+import MoviePage from "./movies/moviePage";
 import Header from "./Header";
 
 function App() {

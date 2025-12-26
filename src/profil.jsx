@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import movies from "./movies.js";
+import movies from "./movies/movies.js";
 import User from "./user.js"
 import "./profil.css";
 import "./movies/movie.css";
