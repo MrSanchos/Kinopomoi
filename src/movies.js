@@ -1,4 +1,3 @@
-import poster1 from './assets/fnaf.png';
 const movies = [
     {
     id: 1,
@@ -8,7 +7,7 @@ const movies = [
     categories: ["УЖАСЫ", "ТРИЛЛЕР"],
     duration: "1час 44минуты",
     rating: "64%",
-    poster: poster1,
+    poster: "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/5f6f58dc-a8d0-43f8-8216-b9afaad59e7f/1920x",
     videoUrl: "https://rutube.ru/play/embed/bf62383e43e1d04bdbedc2cd90dc5f79/?r=plwd"
   },{
     id: 2,
