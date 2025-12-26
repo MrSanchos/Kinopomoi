@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import movies from './movies/movies.js';
+import movies from './movies.js';
 import './Header.css'
 import logo from './assets/logo.png';
 import entry from './assets/vhod.png';

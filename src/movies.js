@@ -1,3 +1,4 @@
+import poster1 from './assets/fnaf.png';
 const movies = [
     {
     id: 1,
@@ -7,7 +8,7 @@ const movies = [
     categories: ["УЖАСЫ", "ТРИЛЛЕР"],
     duration: "1час 44минуты",
     rating: "64%",
-    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+    poster: poster1,
     videoUrl: "https://rutube.ru/play/embed/bf62383e43e1d04bdbedc2cd90dc5f79/?r=plwd"
   },{
     id: 2,

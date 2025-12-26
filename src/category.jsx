@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import movies from "./movies/movies.js";
+import movies from "./movies.js";
 import "./movies/movie.css";
 
 function Category() {
