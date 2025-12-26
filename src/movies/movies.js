@@ -7,7 +7,7 @@ const movies = [
     categories: ["УЖАСЫ", "ТРИЛЛЕР"],
     duration: "1час 44минуты",
     rating: "64%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
     videoUrl: "https://rutube.ru/play/embed/bf62383e43e1d04bdbedc2cd90dc5f79/?r=plwd"
   },{
     id: 2,
@@ -17,7 +17,7 @@ const movies = [
     categories: ["ФАНТАСТИКА", "ПРИКЛЮЧЕНИЯ", "БОЕВИК"],
     duration: "2часа 9минут",
     rating: "74%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/ikbG08TQtkIWUVRVotHhndf72pL.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/ikbG08TQtkIWUVRVotHhndf72pL.jpg",
     videoUrl: "https://rutube.ru/play/embed/153fe18172884e9b349c7cbac03f87ee/?r=plwd"
   },{
     id: 3,
@@ -27,7 +27,7 @@ const movies = [
     categories: ["ФАНТАСТИКА", "БОЕВИК", "ПРИКЛЮЧЕНИЯ"],
     duration: "2часа 17минут",
     rating: "79%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/7SCa2Uw4sdTkn7mGMAhq0AkSC6Y.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/7SCa2Uw4sdTkn7mGMAhq0AkSC6Y.jpg",
     videoUrl: "https://rutube.ru/play/embed/e7fa3f8316733b04210c53a801af38e0/?r=plwd"
   },{
     id: 4,
@@ -37,7 +37,7 @@ const movies = [
     categories: ["ФАНТАСТИКА", "БОЕВИК", "ПРИКЛЮЧЕНИЯ"],
     duration: "2часа 28минут",
     rating: "84%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/piQXcdOGgv1O9HQ07pI0tnjkGJw.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/piQXcdOGgv1O9HQ07pI0tnjkGJw.jpg",
     videoUrl: "https://rutube.ru/play/embed/27c335dcbef386ff6adfd3fb392465c0/?r=plwd"
   },{
     id: 5,
@@ -47,7 +47,7 @@ const movies = [
     categories: ["ДРАМА", "КРИМИНАЛ"],
     duration: "2часа 22минуты",
     rating: "87%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/yvmKPlTIi0xdcFQIFcQKQJcI63W.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/yvmKPlTIi0xdcFQIFcQKQJcI63W.jpg",
     videoUrl: "https://rutube.ru/play/embed/1a13ed24b9f105b43c8b9d19f1b6846a/?t=1&r=plwd"
   },{
     id: 6,
@@ -57,7 +57,7 @@ const movies = [
     categories: ["ДРАМА", "ТРИЛЛЕР", "БОЕВИК", "КРИМИНАЛ"],
     duration: "2часа 32минуты",
     rating: "85%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/aPtN76OjnNKLqCJ2FJBnQOIL031.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/aPtN76OjnNKLqCJ2FJBnQOIL031.jpg",
     videoUrl: "https://rutube.ru/play/embed/74fb252e6f3a0e6eaedb0909dc6eaf29/?r=plwd"
   },{
     id: 7,
@@ -67,7 +67,7 @@ const movies = [
     categories: ["БОЕВИК", "ФАНТАСТИКА"],
     duration: "2часа 16минут",
     rating: "82%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/ahxs2iYHjp6dMHjJORdF5K0deHm.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/ahxs2iYHjp6dMHjJORdF5K0deHm.jpg",
     videoUrl: "https://rutube.ru/play/embed/307c52af7c3e122855aea0899c247971/?r=plwd"
   },{
     id: 8,
@@ -77,7 +77,7 @@ const movies = [
     categories: ["МЕЛОДРАМА", "КОМЕДИЯ", "ДРАМА"],
     duration: "2часа 22минуты",
     rating: "85%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/nsZyCXOubU9Eihvu0o9WwkF6x87.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/nsZyCXOubU9Eihvu0o9WwkF6x87.jpg",
     videoUrl: "https://rutube.ru/play/embed/48a7dd6b620b30713b614f38c00a4739/?r=plwd"
   },{
     id: 9,
@@ -87,7 +87,7 @@ const movies = [
     categories: ["ФАНТАСТИКА", "ПРИКЛЮЧЕНИЯ"],
     duration: "2часа 35минут",
     rating: "78%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/ssXTSdKairpgpLY1shOIWcyZUw1.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/ssXTSdKairpgpLY1shOIWcyZUw1.jpg",
     videoUrl: "https://rutube.ru/play/embed/e2142ce65d2c43af40f84a6c275d2c7b/?r=plwd"
   },{
     id: 10,
@@ -97,7 +97,7 @@ const movies = [
     categories: ["ДРАМА", "ИСТОРИЧЕСКИЙ"],
     duration: "3часа 1минута",
     rating: "80%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/8OQzw8keE6sDNH25sOqPRTxhFTO.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/8OQzw8keE6sDNH25sOqPRTxhFTO.jpg",
     videoUrl: "https://rutube.ru/play/embed/ffe77a61fb1ab119c33638900d8a77e4/?r=plwd"
   },{
     id: 11,
@@ -107,7 +107,7 @@ const movies = [
     categories: ["КОМЕДИЯ", "ПРИКЛЮЧЕНИЯ"],
     duration: "1час 54минуты",
     rating: "69%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/kau707eF6UBvrHX3v5BSYckqSXm.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/kau707eF6UBvrHX3v5BSYckqSXm.jpg",
     videoUrl: "https://rutube.ru/play/embed/529b93e0a8a7e58dbf0d53659c083aca/?r=plwd"
   },{
     id: 12,
@@ -117,7 +117,7 @@ const movies = [
     categories: ["ДРАМА", "ТРИЛЛЕР", "КРИМИНАЛ"],
     duration: "2часа 2минуты",
     rating: "81%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/5itx9nz3gXWgoD2I1UdaqOrphYm.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/5itx9nz3gXWgoD2I1UdaqOrphYm.jpg",
     videoUrl: "https://rutube.ru/play/embed/81e784b6eba4c9d3d0539536d7e58243/?r=plwd"
   },{
     id: 13,
@@ -127,7 +127,7 @@ const movies = [
     categories: ["ДРАМА", "БОЕВИК"],
     duration: "2часа 10минут",
     rating: "82%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/niNo4qTtIule2vvMFW05amvMtOB.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/niNo4qTtIule2vvMFW05amvMtOB.jpg",
     videoUrl: "https://rutube.ru/play/embed/197652dc28f7a9f945301d805a84215a/?r=plwd"
   },{
     id: 14,
@@ -137,7 +137,7 @@ const movies = [
     categories: ["БОЕВИК", "ПРИКЛЮЧЕНИЯ", "ФАНТАСТИКА"],
     duration: "3часа 12минут",
     rating: "76%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/yFNn7uWudLLWDJqfj3fwh5CcUdR.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/yFNn7uWudLLWDJqfj3fwh5CcUdR.jpg",
     videoUrl: "https://rutube.ru/play/embed/633df1f2b8ccf9202aa456f672ff8eed/?r=plwd"
   },{
     id: 15,
@@ -147,7 +147,7 @@ const movies = [
     categories: ["ФАНТАСТИКА", "КОМЕДИЯ"],
     duration: "2часа 18минут",
     rating: "71%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/nLWRxZYkUVM3gQNyF70jFMvImG3.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/nLWRxZYkUVM3gQNyF70jFMvImG3.jpg",
     videoUrl: "https://rutube.ru/play/embed/ea1ed1f7a6f75f71dd6a407d61b37ca9/?r=plwd"
   },{
     id: 16,
@@ -157,7 +157,7 @@ const movies = [
     categories: ["КОМЕДИЯ", "ТРИЛЛЕР", "ДРАМА"],
     duration: "2часа 11минут",
     rating: "85%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/9xL2PwIOerz8jld06J9cxwuJfoD.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/9xL2PwIOerz8jld06J9cxwuJfoD.jpg",
     videoUrl: "https://rutube.ru/play/embed/XXXXXXXX"
   },{
     id: 17,
@@ -167,7 +167,7 @@ const movies = [
     categories: ["АНИМАЦИЯ", "ДРАМА","ФЭНТЕЗИ","МЕЛОДРАМА"],
     duration: "1час 52минуты",
     rating: "80%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/koEIzx6yaqrLkmmScO68s5oDAyc.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/koEIzx6yaqrLkmmScO68s5oDAyc.jpg",
     videoUrl: "https://rutube.ru/play/embed/cb9e6333f4f148e44fd86b8fb4af7875/?r=plwd"
   },{
     id: 18,
@@ -177,7 +177,7 @@ const movies = [
     categories: ["АНИМАЦИЯ", "ДРАМА", "МЕЛОДРАМА"],
     duration: "1час 50минут",
     rating: "85%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/iH2WDCYLIUjc7oPWRT7Kxgxza6k.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/iH2WDCYLIUjc7oPWRT7Kxgxza6k.jpg",
     videoUrl: "https://rutube.ru/play/embed/779300d33a00c2cdce1c7a7d07c4206b/?r=plwd"
   },{
     id: 19,
@@ -187,7 +187,7 @@ const movies = [
     categories: ["УЖАСЫ", "ДЕТЕКТИВ"],
     duration: "1час 58минут",
     rating: "72%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/u2nQ2PwHNHr5jVMIIdQ73XCA00m.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/u2nQ2PwHNHr5jVMIIdQ73XCA00m.jpg",
     videoUrl: "https://rutube.ru/play/embed/XXXXXXXX"
   },{
     id: 20,
@@ -197,7 +197,7 @@ const movies = [
     categories: ["БОЕВИК", "ТРИЛЛЕР", "КРИМИНАЛ"],
     duration: "2часа 49минут",
     rating: "77%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/o29otcx30U3EkqNVGC2feJVz5yr.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/o29otcx30U3EkqNVGC2feJVz5yr.jpg",
     videoUrl: "https://rutube.ru/play/embed/XXXXXXXX"
   },{
     id: 21,
@@ -207,7 +207,7 @@ const movies = [
     categories: ["УЖАСЫ", "ДЕТЕКТИВ", "ДРАМА"],
     duration: "2часа 28минут",
     rating: "72%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/nCZDd6sJ7OdonxiDUNgncrKusQn.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/nCZDd6sJ7OdonxiDUNgncrKusQn.jpg",
     videoUrl: "https://rutube.ru/play/embed/XXXXXXXX"
   },{
     id: 22,
@@ -217,7 +217,7 @@ const movies = [
     categories: ["БОЕВИК", "ТРИЛЛЕР", "КОМЕДИЯ"],
     duration: "2часа 6минут",
     rating: "74%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/oK3e4nDFB8lsT8H1D7bMHXoXsRH.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/oK3e4nDFB8lsT8H1D7bMHXoXsRH.jpg",
     videoUrl: "https://rutube.ru/play/embed/81433aad4f22966a19c1d03ffaa54fc1/?r=plwd"
   },{
     id: 23,
@@ -227,7 +227,7 @@ const movies = [
     categories: ["КОМЕДИЯ", "ДЕТЕКТИВ", "КРИМИНАЛ"],
     duration: "2часа 10минут",
     rating: "78%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/mGfb75tcFWxuT8esS1isHrNFE90.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/mGfb75tcFWxuT8esS1isHrNFE90.jpg",
     videoUrl: "https://rutube.ru/play/embed/XXXXXXXX"
   },{
     id: 24,
@@ -237,7 +237,7 @@ const movies = [
     categories: ["БОЕВИК", "ТРИЛЛЕР", "ФАНТАСТИКА"],
     duration: "2часа 30минут",
     rating: "72%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/1jU80STrosbPsiNe3oPpwyS5cXg.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/1jU80STrosbPsiNe3oPpwyS5cXg.jpg",
     videoUrl: "https://rutube.ru/play/embed/46238a88cf38e71a4233844845e6f93e/?r=plwd"
   },{
     id: 25,
@@ -247,7 +247,7 @@ const movies = [
     categories: ["БОЕВИК", "ПРИКЛЮЧЕНИЯ", "ФАНТАСТИКА"],
     duration: "2часа 5минут",
     rating: "68%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/ebtyQ43I2QSeEJiXYNFgSp4yuYT.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/ebtyQ43I2QSeEJiXYNFgSp4yuYT.jpg",
     videoUrl: "https://rutube.ru/play/embed/917a83c5069799146063c30da5d87716/?r=plwd"
   },{
     id: 26,
@@ -257,7 +257,7 @@ const movies = [
     categories: ["АНИМАЦИЯ", "ДРАМА", "МЕЛОДРАМА"],
     duration: "2часа 10минут",
     rating: "84%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/c0Gv8xTSEmIcQPxbhINKvkbJO8s.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/c0Gv8xTSEmIcQPxbhINKvkbJO8s.jpg",
     videoUrl: "https://rutube.ru/play/embed/c56d9ddcbf5a8a540142c1f075109b96/?r=plwd"
   },{
     id: 27,
@@ -267,7 +267,7 @@ const movies = [
     categories: ["АНИМАЦИЯ", "ДРАМА", "МЕЛОДРАМА", "ФЭНТЕЗИ"],
     duration: "2часа 20минут",
     rating: "83%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/d2JjD4irP4VBUq226H3aOV47GYr.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/d2JjD4irP4VBUq226H3aOV47GYr.jpg",
     videoUrl: "https://rutube.ru/play/embed/a8ff288c6361e8f5a46c3ece4add565d/?r=plwd"
   },{
     id: 28,
@@ -277,7 +277,7 @@ const movies = [
     categories: ["ДРАМА", "ТРИЛЛЕР", "ДЕТЕКТИВ"],
     duration: "2часа 18минут",
     rating: "82%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/3UVMyefkUBiktshtKIEnNXvOFKH.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/3UVMyefkUBiktshtKIEnNXvOFKH.jpg",
     videoUrl: "https://rutube.ru/play/embed/99c934dae8e6106e17e9d04ab3ffb859/?r=plwd"
   },{
     id: 29,
@@ -287,7 +287,7 @@ const movies = [
     categories: ["ДРАМА", "ТРИЛЛЕР", "КОМЕДИЯ"],
     duration: "2часа 42минуты",
     rating: "74%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/muqDW2S3rkZKAVLv4TE47IYg3O6.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/muqDW2S3rkZKAVLv4TE47IYg3O6.jpg",
     videoUrl: "https://rutube.ru/play/embed/6ba25e9b2d03b655d7d8912fbe74a624/?r=plwd"
   },{
     id: 30,
@@ -297,7 +297,7 @@ const movies = [
     categories: ["ДРАМА", "ДРАМА", "СЕМЕЙНЫЙ", "АНИМАЦИЯ"],
     duration: "1час 58минут",
     rating: "71%",
-    poster: "https://www.themoviedb.org/t/p/w600_and_h900_face/lD4Hy3ibzvA9byY2uyUNGeRNzaj.jpg",
+    poster: "https://image.tmdb.org/t/p/w600_and_h900_face/lD4Hy3ibzvA9byY2uyUNGeRNzaj.jpg",
     videoUrl: "https://rutube.ru/play/embed/https://rutube.ru/video/9719089b4bc4dd44aa253020ef5f7969/?r=plwd"
   },
 ];
