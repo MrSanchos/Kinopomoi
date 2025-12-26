@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Category from './category';
 import Movie from "./movies/movie";
+import Profil from "./profil";
 import MoviePage from "./movies/moviePage";
 import Header from "./Header";
 
@@ -30,6 +31,7 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Movie />} />
+                <Route path="/profil" element={<Profil />} />
                 <Route path="/movie/:id" element={<MoviePage />} />
                 <Route path="/:name" element={<Category />} />
             </Routes>

@@ -1,0 +1,22 @@
+.profil{
+    margin: 5% 5%  5%;
+    background-color: #080808;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+.profil img{
+    border-radius: 100%;
+}
+.profilImg{
+    margin: 2% 2% 2% 2%;
+    display: flex;
+}
+.profil p{
+    margin-left: 40px;
+    color: rgb(119, 119, 119);
+}
+.user-info{
+    display: flex;  
+}

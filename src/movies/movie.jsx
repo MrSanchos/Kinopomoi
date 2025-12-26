@@ -6,7 +6,7 @@ function Movie() {
   return (
     <div>
       <div className="film">
-        <h1 className="kategor">ВСЕ ФИЛЬМЫ</h1>
+        <h1>ВСЕ ФИЛЬМЫ</h1>
 
         <div className="film-image">
           {movies.map(movie => (

@@ -10,7 +10,7 @@ function Category() {
   );
 
   return (
-    <div>
+    <div className="film">
       <h1>{name}</h1>
       <div className="film-image">
         {filtered.map(movie => (

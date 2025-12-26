@@ -5,21 +5,21 @@
     left: 0;
     width: 100%; 
     display: flex;
-    align-items: center; 
+    align-items: center;
     font-size: 24px;
     background-color: #030303c7;
     backdrop-filter: blur(10px);
     box-sizing: border-box; 
     z-index: 1000; 
+    justify-content: space-between;
 }
-.menu .reg{
+.reg{
     margin-left: auto;
     padding: 8px 16px;
     font-size: 34px;
 }
-.menu .poisk{
-    margin-left: auto;
-    width: 25%;
+.poisk{
+    width: 90%;
     padding: 8px 16px;
     font-size: 24px;
     cursor: pointer;
@@ -31,9 +31,40 @@
     background-position: right 15px center;
     background-size: 25px 25px;
 }
+.suggestions{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    margin: 10px;
+    padding: 5px 0;
+    border-radius: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+.suggestions li{
+    padding: 8px 12px;
+    cursor: pointer
+}
+.suggestions :hover{
+    background: #e2e2e2;
+}
 button{
-    background-color: #00080000;
+    background-color: #ffffff;
     border: 0;
-    color: rgb(255, 255, 255);
-    cursor: pointer; 
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 16px 16px; 
+}
+.search-wrapper{
+    flex-grow: 1;
+    max-width: 600px;
+    margin-left: 20%;
+    margin-right: 10%;   
+    position: relative
 }

@@ -7,13 +7,13 @@
     align-items: flex-start;
     padding: 20px 40px;
     gap: 40px;
+    margin-left: 40px;
 }
 .watch img{
     border-radius: 25px;
     height: 50vw; 
     max-height: 30vw;
     object-fit: cover;  
-    margin-left: 40px;
 }
 .watch-text {
     display: flex;
@@ -41,11 +41,95 @@
     font-size: 2vw;
 }
 .watch iframe {
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 15px;
     max-width: 100%;
+    height: 30vw;
 }
 .time{
+    font-size: 1vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     color: rgb(148, 148, 148);
 }
+.favoritButton{
+    width: 100%; 
+    margin-top: 10px;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+.comments-section textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px
+}
+.comments-section button{
+    margin-top: 10px
+}
+.comments-list {
+    margin-top: 20px;
+    max-height: 640px;
+    overflow-y: auto;
+    padding-right: 10px; 
+}
+.comment{
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #222;
+    border-radius: 8px
+}
+.comment p {
+  margin: 0;
+  word-break: break-all;
+  white-space: normal;
+}
 
+
+@media (max-width: 768px) {
+
+    .watch {
+        flex-direction: column;     /* ВАЖНО */
+        margin-left: 0;
+        padding: 20px;
+    }  
+
+    .wathcPoste {
+        width: 100%;
+    }
+
+    .watch img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+
+    .watch-text {
+        max-width: 100%;
+    }
+    .time{
+        font-size: 4vw;
+    }
+
+    .favoritButton{
+    font-size: 4.5vw;
+    }
+
+    .watch-text h1 {
+        font-size: 6vw;
+    }
+
+    .watch-text p {
+        font-size: 4vw;
+    }
+
+    .watch iframe {
+        width: 100%;
+        height: 50vw;
+    }
+}
